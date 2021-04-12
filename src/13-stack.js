@@ -10,10 +10,11 @@
  * stack.pop(); // undefined
  *
  */
- class Stack {
+class Stack {
   constructor() {
     this.array = [];
   }
+
   push(element) {
     this.array.push(element);
   }
