@@ -18,7 +18,6 @@ function getSumOfDigits(n) {
     if (sum > 9) repeat(sum.toString().split(''));
   }
   repeat(n.toString().split(''));
-
   return sum;
 }
 

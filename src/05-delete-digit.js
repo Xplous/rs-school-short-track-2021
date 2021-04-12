@@ -21,7 +21,6 @@ function deleteDigit(n) {
       }
     }
   }
-
   return +n.toString().replace(num[0], '');
 }
 
